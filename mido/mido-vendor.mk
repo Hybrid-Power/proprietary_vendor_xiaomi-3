@@ -1189,7 +1189,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/suda/lib/libsudautils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsudautils.so \
     vendor/xiaomi/mido/proprietary/suda/lib64/libsuda-phoneloc-jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsuda-phoneloc-jni.so \
     vendor/xiaomi/mido/proprietary/suda/lib64/libsudautils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsudautils.so \
-    vendor/xiaomi/mido/proprietary/suda/suda-phonelocation.dat:$(TARGET_COPY_OUT_SYSTEM)/media/location/suda-phonelocation.dat
+    vendor/xiaomi/mido/proprietary/suda/suda-phonelocation.dat:$(TARGET_COPY_OUT_SYSTEM)/media/location/suda-phonelocation.dat \
+    vendor/xiaomi/mido/proprietary/lib/libdolphin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdolphin.so \
+    vendor/xiaomi/mido/proprietary/lib/libqti-at.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-at.so \
+    vendor/xiaomi/mido/proprietary/lib64/libdolphin.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdolphin.so \
+    vendor/xiaomi/mido/proprietary/lib64/libqti-at.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-at.so
 
 PRODUCT_PACKAGES += \
     libqmiservices \
